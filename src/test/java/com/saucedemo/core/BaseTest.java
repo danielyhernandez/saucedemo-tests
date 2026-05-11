@@ -24,10 +24,18 @@ public class BaseTest {
 		
 		
 	    ChromeOptions options = new ChromeOptions();
-	    options.addArguments("--disable-save-password-bubble");
-	    options.addArguments("--disable-features=PasswordManagerEnabled");
-	    options.addArguments("--incognito"); 
-		driver = new ChromeDriver(options); 
+
+		options.addArguments("--headless=new");
+		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-dev-shm-usage");
+		options.addArguments("--window-size=1920,1080");
+
+		options.addArguments("--disable-save-password-bubble");
+		options.addArguments("--disable-features=PasswordManagerEnabled");
+		options.addArguments("--incognito");
+
+		driver = new ChromeDriver(options);
+		
 		driver.manage().window().maximize();
 		driver.get("https://www.saucedemo.com/"); 
 	}
