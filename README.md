@@ -1,5 +1,7 @@
 # 🧪 Saucedemo - Testes Automatizados E2E
 
+![Testes](https://github.com/danielyhernandez/saucedemo-tests/actions/workflows/testes.yml/badge.svg)
+
 Projeto de automação de testes End-to-End para o site [Saucedemo](https://www.saucedemo.com/), desenvolvido com Selenium WebDriver e JUnit 5.
 
 ## 🛠️ Tecnologias utilizadas
@@ -8,6 +10,9 @@ Projeto de automação de testes End-to-End para o site [Saucedemo](https://www.
 - Selenium WebDriver 4.43.0
 - JUnit 5
 - Maven
+- Git + GitHub
+- GitHub Actions (CI/CD)
+
 
 ## 📋 Casos de teste
 
@@ -54,5 +59,6 @@ Os prints de cada etapa dos testes são salvos automaticamente na pasta `Evidenc
 
 
 ## 👩‍💻 Autora
+
 
 Daniely — profissional de QA com foco em automação de testes End-to-End utilizando Java, Selenium WebDriver e JUnit.
